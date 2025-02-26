@@ -1,0 +1,72 @@
+﻿@using System.Security.Claims
+<div class="btn-group">
+    <img src="@(userProfileState.userProfile.Image)" width="30" height="40" style="border-radius:50%; margin-right:5px;" /> 
+    <button type="button" class="btn btn-none border-0 dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden">Toggle DropDown</span>
+    </button>
+    <ul class="dropdown-menu mt-2 border-0">
+        <li>
+            <div class="card">
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a class="text-primary fw-bold float-start text-decoration-none" style="font-family:Tahoma; cursor:pointer;" @onclick="UserProfileClicked">
+                                <i class="bi bi-person-gear"></i>
+                                Profile
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card-footer">
+                    <button class="btn btn-danger btn-sm fw-bold w-100" @onclick="LogoutClicked">
+                        <i class="bi bi-box-arrow-left"></i>
+                        Logout
+                    </button>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+@code
+{
+    protected async override Task OnInitializedAsync()
+    {
+        await LoadImage();
+        userProfileState.Action += StateHasChanged;
+    }
+
+    async Task LoadImage()
+    {
+        try
+        {
+            var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+            userProfileState.userProfile.Id = authState.User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)!.Value;
+            var client = await getHttpClient.GetPrivateHttpClient();
+            var response = await client.GetAsync($"api/authentication/user-image/{userProfileState.userProfile.Id}");
+            if (!response.IsSuccessStatusCode)
+                return;
+
+            var result = await response.Content.ReadAsStringAsync();
+            if (string.IsNullOrEmpty(result))
+                return;
+            else
+                userProfileState.userProfile.Image = result!;
+        }
+        catch 
+        {   }
+    }
+
+    async Task LogoutClicked()
+    {
+        var logoutModel = new UserSession();
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        await customAuthStateProvider.UpdateAuthenticationState(logoutModel);
+        NavManager.NavigateTo("/identity/account/login", replace: true, forceLoad: true);
+    }
+
+    void UserProfileClicked() => allState.UserProfileClicked();
+
+    public void Dispose() => userProfileState.Action -= StateHasChanged;
+}

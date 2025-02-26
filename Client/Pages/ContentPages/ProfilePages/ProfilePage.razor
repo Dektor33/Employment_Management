@@ -1,0 +1,144 @@
+﻿@using System.Security.Claims
+@implements IDisposable
+@if (allState.ShowUserProfile)
+{
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+                <EditForm Model="userProfileState.userProfile" OnValidSubmit="UpdateProfile">
+                    <DataAnnotationsValidator />
+                    <div class="card border-success shadow-lg">
+                        <div class="card-header">Personal Information</div>
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-3"></div>
+                                    <div class="col-lg-6 d-flex justify-content-center">
+                                        <div class="vstack gap-2">
+                                            <img style="width:100px; height:100px; border-radius:50%" src="@userProfileState.userProfile.Image" />
+                                            <InputFile OnChange="UploadImage" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Id</label>
+                                <input type="text" value="@userProfileState.userProfile.Id" class="form-control" disabled />
+                            </div>
+                            <div class="form-group mt-3">
+                                <label class="form-label">Name</label>
+                                <InputText @bind-Value="userProfileState.userProfile.Name" class="form-control" />
+                            </div>
+                            <div class="form-group mt-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" @bind="userProfileState.userProfile.Email" class="form-control" />
+                            </div>
+                            <div class="form-group mt-4">
+                                @if (ShowSpinner)
+                                {
+                                    <ButtonLoadingSpinner />
+                                }
+                                else
+                                {
+                                    <button class="btn btn-primary float-end" type="submit">SAVE</button>
+                                }
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <ValidationSummary />
+                        </div>
+                    </div> 
+                </EditForm>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+}
+
+@code {
+    protected async override Task OnInitializedAsync()
+    {
+        await UserDetails();
+        allState.Action += StateHasChanged;
+        userProfileState.Action += StateHasChanged;
+    }
+    public bool ShowSpinner { get; set; } = false;
+    private async Task UserDetails()
+    {
+        try
+        {
+            var client = await getHttpClient.GetPrivateHttpClient();
+            var authState = await AuthStateProvider.GetAuthenticationStateAsync();
+            userProfileState.userProfile.Id = authState.User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)!.Value;
+            userProfileState.userProfile.Name = authState.User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)!.Value;
+            userProfileState.userProfile.Email = authState.User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)!.Value;
+            var response = await client.GetAsync($"api/authentication/user-image/{userProfileState.userProfile.Id}");
+            if (!response.IsSuccessStatusCode)
+                return;
+
+            var result = await response.Content.ReadAsStringAsync();
+            if (string.IsNullOrEmpty(result))
+                return;
+            else
+                userProfileState.userProfile.Image = result!;
+        }
+        catch
+        {
+        }
+    }
+
+    async Task UpdateProfile()
+    {
+        if (userProfileState.userProfile.Image == "images/Profile/defaultProfile_Image.jpg")
+        {
+            await dialogService.AlertAsync("Add profile image.", "Alert!");
+            return;
+        }
+        ShowSpinner = true;
+        var client = await getHttpClient.GetPrivateHttpClient();
+        var response = await client.PutAsJsonAsync("api/authentication/update-profile", userProfileState.userProfile);
+        if (!response.IsSuccessStatusCode)
+        {
+            ShowSpinner = false;
+            return;
+        }
+        var result = await response.Content.ReadFromJsonAsync<bool>();
+        if (result)
+        {
+            ShowSpinner = false;
+            await dialogService.AlertAsync("Profile updated.", "Success");
+            userProfileState.ProfileUpdate();
+            await LogoutClicked();
+        }
+        ShowSpinner = false;
+    }
+
+    private async Task UploadImage(InputFileChangeEventArgs e)
+    {
+        if (e.File.Name.ToLower().Contains(".png"))
+        {
+            var format = "image/png";
+            var resizeImage = await e.File.RequestImageFileAsync(format, 300, 300);
+            var buffer = new byte[resizeImage.Size];
+            await resizeImage.OpenReadStream().ReadAsync(buffer);
+            var imageData = $"data:{format};base64,{Convert.ToBase64String(buffer)}";
+            userProfileState.userProfile.Image = imageData;
+            imageData = "";
+            return;
+        }
+        await dialogService.AlertAsync("PNG file needed.", "Alert");
+        return;
+    }
+
+    private async Task LogoutClicked()
+    {
+        var logoutModel = new UserSession();
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        await customAuthStateProvider.UpdateAuthenticationState(logoutModel);
+        NavManager.NavigateTo("/identity/account/login", replace: true, forceLoad: true);
+    }
+
+    public void Dispose() => allState.Action -= StateHasChanged;
+}

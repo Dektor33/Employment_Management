@@ -1,0 +1,34 @@
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\bin\Debug\net8.0\ServerLibrary.deps.json
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\bin\Debug\net8.0\ServerLibrary.runtimeconfig.json
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\bin\Debug\net8.0\ServerLibrary.dll
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\bin\Debug\net8.0\ServerLibrary.pdb
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\bin\Debug\net8.0\BaseLibrary.dll
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\bin\Debug\net8.0\BaseLibrary.pdb
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\obj\Debug\net8.0\ServerLibrary.csproj.AssemblyReference.cache
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\obj\Debug\net8.0\ServerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\obj\Debug\net8.0\ServerLibrary.AssemblyInfoInputs.cache
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\obj\Debug\net8.0\ServerLibrary.AssemblyInfo.cs
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\obj\Debug\net8.0\ServerLibrary.csproj.CoreCompileInputs.cache
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\obj\Debug\net8.0\ServerLi.AF94C59E.Up2Date
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\obj\Debug\net8.0\ServerLibrary.dll
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\obj\Debug\net8.0\refint\ServerLibrary.dll
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\obj\Debug\net8.0\ServerLibrary.pdb
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\obj\Debug\net8.0\ServerLibrary.genruntimeconfig.cache
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ServerLibrary\obj\Debug\net8.0\ref\ServerLibrary.dll
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\bin\Debug\net8.0\ServerLibrary.deps.json
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\bin\Debug\net8.0\ServerLibrary.runtimeconfig.json
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\bin\Debug\net8.0\ServerLibrary.dll
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\bin\Debug\net8.0\ServerLibrary.pdb
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\bin\Debug\net8.0\BaseLibrary.dll
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\bin\Debug\net8.0\BaseLibrary.pdb
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\obj\Debug\net8.0\ServerLibrary.csproj.AssemblyReference.cache
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\obj\Debug\net8.0\ServerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\obj\Debug\net8.0\ServerLibrary.AssemblyInfoInputs.cache
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\obj\Debug\net8.0\ServerLibrary.AssemblyInfo.cs
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\obj\Debug\net8.0\ServerLibrary.csproj.CoreCompileInputs.cache
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\obj\Debug\net8.0\ServerLi.AF94C59E.Up2Date
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\obj\Debug\net8.0\ServerLibrary.dll
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\obj\Debug\net8.0\refint\ServerLibrary.dll
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\obj\Debug\net8.0\ServerLibrary.pdb
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\obj\Debug\net8.0\ServerLibrary.genruntimeconfig.cache
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ServerLibrary\obj\Debug\net8.0\ref\ServerLibrary.dll

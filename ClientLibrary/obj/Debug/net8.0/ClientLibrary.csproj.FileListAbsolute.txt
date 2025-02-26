@@ -1,0 +1,30 @@
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\bin\Debug\net8.0\ClientLibrary.deps.json
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\bin\Debug\net8.0\ClientLibrary.dll
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\bin\Debug\net8.0\ClientLibrary.pdb
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\bin\Debug\net8.0\BaseLibrary.dll
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\bin\Debug\net8.0\BaseLibrary.pdb
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ClientLibrary.csproj.AssemblyReference.cache
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ClientLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ClientLibrary.AssemblyInfoInputs.cache
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ClientLibrary.AssemblyInfo.cs
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ClientLibrary.csproj.CoreCompileInputs.cache
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ClientLi.3D08BA28.Up2Date
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ClientLibrary.dll
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\refint\ClientLibrary.dll
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ClientLibrary.pdb
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\ClientLibrary\obj\Debug\net8.0\ref\ClientLibrary.dll
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\bin\Debug\net8.0\ClientLibrary.deps.json
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\bin\Debug\net8.0\ClientLibrary.dll
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\bin\Debug\net8.0\ClientLibrary.pdb
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\bin\Debug\net8.0\BaseLibrary.dll
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\bin\Debug\net8.0\BaseLibrary.pdb
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\obj\Debug\net8.0\ClientLibrary.csproj.AssemblyReference.cache
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\obj\Debug\net8.0\ClientLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\obj\Debug\net8.0\ClientLibrary.AssemblyInfoInputs.cache
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\obj\Debug\net8.0\ClientLibrary.AssemblyInfo.cs
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\obj\Debug\net8.0\ClientLibrary.csproj.CoreCompileInputs.cache
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\obj\Debug\net8.0\ClientLi.3D08BA28.Up2Date
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\obj\Debug\net8.0\ClientLibrary.dll
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\obj\Debug\net8.0\refint\ClientLibrary.dll
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\obj\Debug\net8.0\ClientLibrary.pdb
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\ClientLibrary\obj\Debug\net8.0\ref\ClientLibrary.dll

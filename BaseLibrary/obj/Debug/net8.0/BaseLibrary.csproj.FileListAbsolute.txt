@@ -1,0 +1,24 @@
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\BaseLibrary\bin\Debug\net8.0\BaseLibrary.deps.json
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\BaseLibrary\bin\Debug\net8.0\BaseLibrary.dll
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\BaseLibrary\bin\Debug\net8.0\BaseLibrary.pdb
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.AssemblyReference.cache
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\BaseLibrary\obj\Debug\net8.0\BaseLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfoInputs.cache
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfo.cs
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.CoreCompileInputs.cache
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\BaseLibrary\obj\Debug\net8.0\BaseLibrary.dll
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\BaseLibrary\obj\Debug\net8.0\refint\BaseLibrary.dll
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\BaseLibrary\obj\Debug\net8.0\BaseLibrary.pdb
+D:\Programma\C#\DemoEmployeeManagementSystemSolution\BaseLibrary\obj\Debug\net8.0\ref\BaseLibrary.dll
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\BaseLibrary\bin\Debug\net8.0\BaseLibrary.deps.json
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\BaseLibrary\bin\Debug\net8.0\BaseLibrary.dll
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\BaseLibrary\bin\Debug\net8.0\BaseLibrary.pdb
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.AssemblyReference.cache
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\BaseLibrary\obj\Debug\net8.0\BaseLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfoInputs.cache
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\BaseLibrary\obj\Debug\net8.0\BaseLibrary.AssemblyInfo.cs
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\BaseLibrary\obj\Debug\net8.0\BaseLibrary.csproj.CoreCompileInputs.cache
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\BaseLibrary\obj\Debug\net8.0\BaseLibrary.dll
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\BaseLibrary\obj\Debug\net8.0\refint\BaseLibrary.dll
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\BaseLibrary\obj\Debug\net8.0\BaseLibrary.pdb
+D:\Programma\C#\C# Ready_Projects\DemoEmployeeManagementSystemSolution__CompleteFinal_Part8\BaseLibrary\obj\Debug\net8.0\ref\BaseLibrary.dll
